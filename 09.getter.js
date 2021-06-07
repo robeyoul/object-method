@@ -33,3 +33,17 @@ var person1= {
 }
 
 console.log(person1.lang); // en
+
+
+
+var person2= {
+   fName: 'Robeyoul Awal',
+   lName: ' Raju',
+   Blood : 'A+',
+   get fullName(){
+      return this.fName + this.lName
+   }
+}
+
+console.log(person2.fullName)
+
