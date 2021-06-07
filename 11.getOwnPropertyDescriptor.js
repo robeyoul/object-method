@@ -122,3 +122,5 @@ log(person) // {name: 'Raju'}
 যদি configurable true থাকে তাহলে আমরা object কে reassign এবং delete করতে পারবো। আর যদি false থেকে তাহলে পারব না।
 
 */
+
+console.log('ending');
